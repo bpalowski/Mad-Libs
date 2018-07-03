@@ -12,7 +12,7 @@ namespace Lib.Controllers
       return View();
     }
 
-    [Route("/MadLibs")]
+    [Route("/mad_libs")]
     //  public string Hello() { return "Hello friend!"; }
     public ActionResult MadLibs()
     {
